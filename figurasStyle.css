@@ -60,9 +60,28 @@ header {
     align-self: center;
     width: 90%;
     margin-top: 25px;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.4rem;
+}
+
+.header--button{
+    position: absolute;
+    display: block;
+    top: calc(100% - 80px);
+    align-self: center;
+    width: 48px;
+    height: 48px;
+}
+
+.header--button span {
+    display: inline-block;
+    background-image: url('./assets/down-arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48px;
+    height: 48px;
 }
 
 
