@@ -8,23 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./figurasStyle.css">
 </head>
 <body>
     <header>
-        <h1>Figuras geométricas</h1>
-        <p>
+        <h1 class="header--title">Figuras geométricas</h1>
+        <p class="header--description">
             Este es el primer taller del curso práctico de JavaScript en Platzi 💚
         </p>
     </header>
     <main>
         <section>
             <h2>Calcular el perímetro y área de:</h2>
-            <a href=""><div>Cuadrado</div></a>
-            <a href=""><div>Triángulo</div></a>
-            <a href=""><div>Círculo</div></a>
+            <a href="#cuadrado"><div>Cuadrado</div></a>
+            <a href="#triangulo"><div>Triángulo</div></a>
+            <a href="#circulo"><div>Círculo</div></a>
         </section>
         <hr>
-        <section>
+        <section id="cuadrado">
             <figure>
                 <img src="" alt="Cuadrado con cotas verdes">
             </figure>
@@ -48,7 +49,7 @@
             <p>El <b>área</b> del cuadrado es: <span id="outputAreaCuadrado">resultado</span></p>
         </section>
         <hr>
-        <section>
+        <section id="triangulo">
             <figure>
                 <img src="" alt="Tríangulo con cotas de colores">
             </figure>
@@ -75,13 +76,13 @@
             <p>El <b>área</b> del triángulo es: <span id="outputAreaTriangulo">resultado</span></p>
         </section>
         <hr>
-        <section>
+        <section id="circulo">
             <figure>
                 <img src="" alt="Círculo con radio rojo">
             </figure>
             <p>Para el círculo solo necesitamos su radio. <b>Ingresa cuanto mide el <strong style="color: redv;">radio</strong></b>.</p>
             <form action="">
-                <input type="number" name="" id="ladoCuadrado">
+                <input type="number" name="" id="radioCirculo">
                 <div>
                     <figure>
                         <img src="" alt="Círculo lineal">

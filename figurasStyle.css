@@ -1,0 +1,71 @@
+/*
+
+*1. Posicionamiento
+*2. Modelo de caja (Box model)
+*3. Tipografía
+*4. Visuales
+*5. Otros 
+
+*/
+
+:root {
+    --medida-azul: #0069F6;
+    --medida-verde: #008037;
+    --medida-amarilla: #FBBC05;
+    --medida-roja: #FF1616;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/** Maquetado del header */
+
+header::after {
+    content: "";
+    background: url('https://image.freepik.com/free-vector/3d-geometric-shapes-background_23-2148064982.jpg');
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 100px;
+}
+
+.header--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    text-align: center;
+    align-self: center;
+    font-size: 2.4rem;
+}
+
+
+
+
+
+
+
+
+
+
