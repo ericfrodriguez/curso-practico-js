@@ -5,23 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras Geométricas | Curso Práctico JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Figuras geométricas</h1>
         <p>
-            Este es el primer taller del curso práctico de JavaScript
+            Este es el primer taller del curso práctico de JavaScript en Platzi 💚
         </p>
     </header>
-    <section>
-        <h2>Calcula el área y perímetro de un cuadrado</h2>
-        <form action="">
-            <label for="inputCuadrado">Escribe cuanto mide cada lado de tu cuadrado</label>
-            <input type="number" name="" id="inputCuadrado">
-            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
-            <button type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
-        </form>
-    </section>
+    <main>
+        <section>
+            <h2>Calcular el perímetro y área de:</h2>
+            <a href=""><div>Cuadrado</div></a>
+            <a href=""><div>Triángulo</div></a>
+            <a href=""><div>Círculo</div></a>
+        </section>
+        <hr>
+        <section>
+            <figure>
+                <img src="" alt="Cuadrado con cotas verdes">
+            </figure>
+            <p>Los lados de un cuadrado son todos iguales. <b>Solo tienes que ingresar un <strong style="color: green;">lado</strong></b>.</p>
+            <form action="">
+                <input type="number" name="" id="ladoCuadrado">
+                <div>
+                    <figure>
+                        <img src="" alt="Cuadrado lineal">
+                    </figure>
+                    <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
+                </div>
+                <div>
+                    <figure>
+                        <img src="" alt="Cuadrado relleno">
+                    </figure>
+                    <button type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+                </div>
+            </form>
+            <p>El <b>perímetro</b> del cuadrado es: <span id="outputPerimetroCuadrado">resultado</span></p>
+            <p>El <b>área</b> del cuadrado es: <span id="outputAreaCuadrado">resultado</span></p>
+        </section>
+        <hr>
+        <section>
+            <figure>
+                <img src="" alt="Tríangulo con cotas de colores">
+            </figure>
+            <p>Los lados de un triángulo pueden ser todos diferentes. <b>Ingresá cuanto mide el <strong style="color: blue;">lado 1</strong>, <strong style="color: green;">lado 2</strong>, <strong style="color: #FBBC05;">la base</strong> y la <strong style="color: red;">altura</strong></b>.</p>
+            <form action="">
+                <input type="number" name="" id="ladoTriangulo1" placeholder="Lado 1">
+                <input type="number" name="" id="ladoTriangulo2" placeholder="Lado 2">
+                <input type="number" name="" id="baseTriangulo" placeholder="Lado 3 / Base">
+                <input type="number" name="" id="alturaTriangulo" placeholder="Altura">
+                <div>
+                    <figure>
+                        <img src="" alt="Triángulo lineal">
+                    </figure>
+                    <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
+                </div>
+                <div>
+                    <figure>
+                        <img src="" alt="Triángulo relleno">
+                    </figure>
+                    <button type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
+                </div>
+            </form>
+            <p>El <b>perímetro</b> del triángulo es: <span id="outputPerimetroTriangulo">resultado</span></p>
+            <p>El <b>área</b> del triángulo es: <span id="outputAreaTriangulo">resultado</span></p>
+        </section>
+        <hr>
+        <section>
+            <figure>
+                <img src="" alt="Círculo con radio rojo">
+            </figure>
+            <p>Para el círculo solo necesitamos su radio. <b>Ingresa cuanto mide el <strong style="color: redv;">radio</strong></b>.</p>
+            <form action="">
+                <input type="number" name="" id="ladoCuadrado">
+                <div>
+                    <figure>
+                        <img src="" alt="Círculo lineal">
+                    </figure>
+                    <button type="button" onclick="calcularPerimetroCirculo()">Calcular el perímetro</button>
+                </div>
+                <div>
+                    <figure>
+                        <img src="" alt="Círculo relleno">
+                    </figure>
+                    <button type="button" onclick="calcularAreaCirculo()">Calcular el área</button>
+                </div>
+            </form>
+            <p>El <b>perímetro</b> del círculo es: <span id="outputPerimetroCirculo">resultado</span></p>
+            <p>El <b>área</b> del círculo es: <span id="outputAreaCirculo">resultado</span></p>
+        </section>
+    </main>
     <script src="figuras.js"></script>
 </body>
 </html>
