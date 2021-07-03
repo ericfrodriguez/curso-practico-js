@@ -23,7 +23,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -39,7 +39,7 @@ header {
     width: 100%;
     min-width: 320px;
     height: 90vh;
-    background-image: url(https://fondosmil.com/fondo/18826.jpg);
+    background-image: url('./assets/background-header-png.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -52,17 +52,21 @@ header {
     text-align: center;
     align-self: center;
     font-size: 5.2rem;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 5.2rem;
+    letter-spacing: 0.1rem;
+    color: rgb(219, 233, 255);
 }
 
 .header--description {
     align-self: center;
     width: 90%;
     margin-top: 25px;
-    font-size: 2.4rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 400;
     line-height: 2.4rem;
+    letter-spacing: 0.1rem;
+    color: rgb(152, 191, 255);
 }
 
 .header--button{
@@ -76,13 +80,17 @@ header {
 
 .header--button span {
     display: inline-block;
-    background-image: url('./assets/down-arrow.svg');
+    background-image: url('./assets/scroll.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 48px;
     height: 48px;
 }
+
+/** Estilos del main */
+
+/*? Estilos indice */
 
 
 
