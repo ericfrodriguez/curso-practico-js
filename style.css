@@ -146,19 +146,121 @@ main {
 }
 
 .main--index-container .index--button:active {
-    transform: scale(1.1);
-    transition: 200ms;
-    background-color: whitesmoke;
+    transition: 0.2s;
+    color: rgb(241, 206, 142);
 }
 
 .main--index-container .index--button__circulo {
     margin-bottom: 24px;
 }
 
-/*? Estilos de seccion cuadrado */
+/*? Estilos de seccion calculadoras */
 
+/*
 
+*1. Posicionamiento
+*2. Modelo de caja (Box model)
+*3. Tipografía
+*4. Visuales
+*5. Otros 
 
+*/
+
+.main--calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
+    height: auto;
+    font-family: 'Rubik', sans-serif;;
+}
+
+.main--calculadora img {
+    width: 150px;
+    align-self: center;
+    justify-content: center;
+}
+
+.main--calculadora .calculadora--image__cotas {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.calculadora--description {
+    text-align: center;
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.main--calculadora form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    width: 90%;
+}
+
+.calculadora--input {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 1px rgb(207, 207, 207) solid;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+    text-align: center;
+}
+
+.calculadora--choice-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.calculadora--choice {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.calculadora--button {
+    padding: 10px 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4rem;
+    color: rgb(92, 67, 22);
+    border: 1px solid rgba(92, 67, 22, 0.2);
+    border-radius: 5px;
+    background-color: wheat;
+    box-shadow: 0px 2px 4px rgba(92, 67, 22, 0.16);
+}
+
+.calculadora--button:focus {
+    background-color: white;
+    border: 2px solid wheat;
+    color: rgb(241, 206, 142);
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.calculadora--resultado {
+    margin-top: 10px;
+    font-size: 1.6rem;
+}
+
+.resultado__perimetro {
+    margin-top: 15px;
+}
+
+.resultado__area {
+    margin-bottom: 10px;
+}
 
 
 
