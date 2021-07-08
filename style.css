@@ -208,12 +208,16 @@ main {
 
 .calculadora--input {
     margin-top: 10px;
-    width: 100px;
+    width: 130px;
     height: 30px;
     border: 1px rgb(207, 207, 207) solid;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
     text-align: center;
+}
+
+.calculadora--input:focus{
+    outline: none;
 }
 
 .calculadora--choice-container {
@@ -263,6 +267,62 @@ main {
 }
 
 
+
+.input__azul {
+    border: 1px solid var(--medida-azul);
+    box-shadow: 0 2px 4px var(--medida-azul);
+}
+
+.input__azul::placeholder {
+    color: var(--medida-azul);
+}
+
+.input__verde {
+    border: 1px solid var(--medida-verde);
+    box-shadow: 0 2px 4px var(--medida-verde);
+}
+
+.input__verde::placeholder {
+    color: var(--medida-verde);
+}
+
+.input__amarillo {
+    border: 1px solid var(--medida-amarilla);
+    box-shadow: 0 2px 4px var(--medida-amarilla);
+}
+
+.input__amarillo::placeholder {
+    color: var(--medida-amarilla);
+}
+
+.input__rojo {
+    border: 1px solid var(--medida-roja);
+    box-shadow: 0 2px 4px var(--medida-roja);
+}
+
+.input__rojo::placeholder {
+    color: var(--medida-roja);
+}
+
+.description--strong__rojo {
+    color: var(--medida-roja);
+}
+
+.description--strong__verde {
+    color: var(--medida-verde);
+}
+
+.description--strong__amarillo {
+    color: var(--medida-amarilla);
+}
+
+.description--strong__azul {
+    color: var(--medida-azul);
+}
+
+hr {
+    opacity: 0.2;
+}
 
 
 

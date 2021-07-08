@@ -72,44 +72,21 @@
             <img src="./assets/circulo-cotas.png" alt="Circulo con cotas rojas" class="calculadora--image__cotas">
             <p class="calculadora--description">Para el círculo solo necesitamos su radio. <b>Ingresa cuanto mide el <strong class="calculadora--description__strong description--strong__rojo">radio</strong></b>.</p>
             <form action="">
-                <input type="number" name="" id="radioCirculo" placeholder="Radio" class="calculadora--input input__verde">
+                <input type="number" name="" id="radioCirculo" placeholder="Radio" class="calculadora--input input__rojo">
             </form>
             <div class="calculadora--choice-container">
                 <div class="calculadora--choice choice__perimetro">
-                    <img src="./assets/circulo-perimetro.png" alt="Cuadrado lineal" class="calculadora--image__perimetro">
+                    <img src="./assets/circulo-perimetro.png" alt="Circulo lineal" class="calculadora--image__perimetro">
                     <button type="button" onclick="calcularPerimetroCirculo()" class="calculadora--button button__perimetro">Calcular el perímetro</button>
                 </div>
                 <div class="calculadora--choice choice__area">
-                    <img src="./assets/circulo-area.png" alt="Cuadrado relleno" class="calculadora--image__area">
+                    <img src="./assets/circulo-area.png" alt="Circulo relleno" class="calculadora--image__area">
                     <button type="button" onclick="calcularAreaCirculo()" class="calculadora--button button__area">Calcular el área</button>
                 </div>
             </div>
             <p class="calculadora--resultado resultado__perimetro">El <b>perímetro</b> del círculo es: <span id="outputPerimetroCirculo">resultado</span></p>
             <p class="calculadora--resultado resultado__area">El <b>área</b> del círculo es: <span id="outputAreaCirculo">resultado</span></p>
         </section>
-        <!-- <section id="circulo" class="calculadora__circulo">
-            <figure>
-                <img src="" alt="Círculo con radio rojo">
-            </figure>
-            <p>Para el círculo solo necesitamos su radio. <b>Ingresa cuanto mide el <strong style="color: redv;">radio</strong></b>.</p>
-            <form action="">
-                <input type="number" name="" id="radioCirculo">
-                <div>
-                    <figure>
-                        <img src="" alt="Círculo lineal">
-                    </figure>
-                    <button type="button" onclick="calcularPerimetroCirculo()">Calcular el perímetro</button>
-                </div>
-                <div>
-                    <figure>
-                        <img src="" alt="Círculo relleno">
-                    </figure>
-                    <button type="button" onclick="calcularAreaCirculo()">Calcular el área</button>
-                </div>
-            </form>
-            <p>El <b>perímetro</b> del círculo es: <span id="outputPerimetroCirculo">resultado</span></p>
-            <p>El <b>área</b> del círculo es: <span id="outputAreaCirculo">resultado</span></p>
-        </section> -->
     </main>
     <script src="figuras.js"></script>
 </body>
